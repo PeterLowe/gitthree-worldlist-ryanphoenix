@@ -80,6 +80,31 @@ int main()
 		}
 	}
 
+	if (letter == 'c' || letter == 'C')
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Cayman Islands, Colombia, Costa Rica, Greater Antilles" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia, Czech Republic" << std::endl;
+
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central AfricaN Republic, Chad, Comoros, DRC, Congo, Cote D'Ivoire" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas Island, Cyprus" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cocos Islands, Cook Islands" << std::endl;
+		}
+	}
+
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)
