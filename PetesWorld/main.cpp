@@ -23,6 +23,7 @@ int main()
 		return 0;
 	}
 
+
 	std::cout << "Pick a letter from A to E or W to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -151,6 +152,29 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "There are no Es in the rest of the world" << std::endl;
+		}
+	}
+	if (letter == 'v' || letter == 'V')
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezeula" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanutu, Virigin Islands (Brittish), Virigin Islands (U.S)" << std::endl;
 		}
 	}
 
